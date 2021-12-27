@@ -1,0 +1,74 @@
+[
+    {
+        "id": "mama-1",
+        "name": "Oreo Brownie Shake",
+        "price": "180",
+        "image": "/images/oreo.png",
+        "category": "shakes",
+        "type": "veg",
+        "isAvailable": true
+    },
+    {
+        "id": "mama-2",
+        "name": "Mama Special Sausage Pizza",
+        "price": "320",
+        "image": "/images/pizza.png",
+        "category": "pizza",
+        "type": "non-veg",
+        "isAvailable": true
+    },
+    {
+        "id": "mama-3",
+        "name": "Peri Peri Fries",
+        "price": "230",
+        "image": "/images/fries.png",
+        "category": "fries",
+        "type": "veg",
+        "isAvailable": true
+    },
+    {
+        "id": "mama-4",
+        "name": "Grilled Sandwich",
+        "price": "150",
+        "image": "/images/sandwich.png",
+        "category": "sandwich",
+        "type": "veg",
+        "isAvailable": true
+    },
+    {
+        "id": "mama-5",
+        "name": "Mama Special Ice Cream",
+        "price": "120",
+        "image": "/images/ice-cream.png",
+        "category": "desert",
+        "type": "veg",
+        "isAvailable": true
+    },
+    {
+        "id": "mama-6",
+        "name": "Chicken Cheese Burger",
+        "price": "150",
+        "image": "/images/burger.png",
+        "category": "burger",
+        "type": "non-veg",
+        "isAvailable": true
+    },
+    {
+        "id": "mama-7",
+        "name": "Chicken Cheese Nachos",
+        "price": "190",
+        "image": "/images/nachos.png",
+        "category": "nachos",
+        "type": "non-veg",
+        "isAvailable": true
+    },
+    {
+        "id": "mama-8",
+        "name": "Ramen Noodles",
+        "price": "250",
+        "image": "/images/noodles.png",
+        "category": "noodles",
+        "type": "veg",
+        "isAvailable": true
+    }
+]
