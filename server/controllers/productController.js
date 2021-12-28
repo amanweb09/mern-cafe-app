@@ -16,6 +16,17 @@ const productController = () => {
         },
         cartItems: async function (req, res) {
             const ids = JSON.parse(req.body.items);
+            try {
+                const items = await Menu.find({ _id: { $in: ids } })
+                if (items) {
+                    return res.status(200).json({items})
+                }
+            } catch {
+                err => {
+                    console.log(err);
+                    return res.status(500).json({err: "Something went wrong!"})
+                }
+            }
         }
     }
 }
